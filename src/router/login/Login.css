@@ -6,3 +6,107 @@
     margin: 50px auto;
     text-align: center;
 }
+
+.div1{
+    display: flex;
+    flex-direction: column;
+}
+.bt1{
+    height: 50px;
+    background-color: white;
+    color: #002F34;
+    margin-top: 20px;
+    border: 2px solid #002F34;
+    font-size: 18px;
+    font-weight: 600;
+}
+.bt1:hover{
+    border: 3px solid #002F34;
+}
+.div2 hr{
+    width: 100px;
+    height: 0px;
+    margin-left: 8px;
+}
+.div2 .hr2{
+    width: 100px;
+    height: 0px;
+    margin-left: 24px;
+}
+.div2{
+    display: flex;
+}
+.div2 h1{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 24px;
+}
+
+.div3{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.div3 h1{
+    font-size: 17px;
+    margin-left: 40px;
+}
+.div3 h2{
+    font-size: 16px;
+    margin-left: 80px;
+}
+
+.div4 h1{
+    font-size: 16px;
+    margin-left: -90px;
+    margin-top: 20px;
+    font-weight: 100;
+
+}
+.div4 input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: rgb(241, 240, 236);
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.div5 h1{
+    font-size: 16px;
+    margin-left: -235px;
+    margin-top: 20px;
+    font-weight: 100;
+
+}
+.div5 input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: rgb(241, 240, 236);
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.div6 h1{
+    font-size: 16px;
+    margin-left: -120px;
+    margin-top: 20px;
+    font-weight: 100;
+
+}
+.div6 .bt2{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: rgb(241, 240, 236);
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 19px;
+    font-weight: 600;
+    color: #b1adad;
+}
+
+.bt3{
+    margin-top: 10px;
+}

@@ -1,16 +1,45 @@
 .product_wrapper{
     padding: 50px 10%;
     display: flex;
+    margin-top: 100px;
     flex-wrap: wrap;
     gap: 15px;
+    background-color: #F2F4F5;
+    padding-left: 140px;
 }
 .product_card{
-    width: 300px;
+    width: 250px;
     padding: 15px;
-    border: 1px solid #aaa;
+    background-color: white;
+    margin-left: 7px;
 }
 .product_card img{
     width: 100%;
-    height: 250px;
+    height: 200px;
     object-fit: cover;
+}
+.product_card h2{
+    color: #002F34;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.product_card h1{
+    color: #002F34;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+.product_card h3{
+    color: #002F34;
+    margin-top: 20px;
+}
+.product_card ion-icon{
+    font-size: 30px;
+    color: #aaa;
+    margin-left: 13%;
+    margin-top: -20px;
+    position: absolute;
+    cursor: pointer;
 }
